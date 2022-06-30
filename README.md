@@ -2,6 +2,8 @@
 
 База данных о сотрудниках и студентах университета
 
+[Доска проекта](https://wbd.ms/share/v2/aHR0cHM6Ly93aGl0ZWJvYXJkLm1pY3Jvc29mdC5jb20vYXBpL3YxLjAvd2hpdGVib2FyZHMvcmVkZWVtLzA1MTdkOTgxNmRiYzQzZmM4YWFhMzE0NjRjZjU0MzM1X0JCQTcxNzYyLTEyRTAtNDJFMS1CMzI0LTVCMTMxRjQyNEUzRF9mNWJiYTU2Ni1lYzMyLTQxYjEtOGY2NS00Mzk4ZTA2NmU4ODE=)
+
 ## Задачи:
 - добавление, изменение, удаление (помечание уволенных и отчисленных) личных данных о сотрудниках и студентах
 - добавление успеваемости студентов
@@ -16,5 +18,3 @@
 
 ## Модель данных
 ![Схема модели данных](university_data_model.png)
-
-[Доска проекта](https://wbd.ms/share/v2/aHR0cHM6Ly93aGl0ZWJvYXJkLm1pY3Jvc29mdC5jb20vYXBpL3YxLjAvd2hpdGVib2FyZHMvcmVkZWVtLzA1MTdkOTgxNmRiYzQzZmM4YWFhMzE0NjRjZjU0MzM1X0JCQTcxNzYyLTEyRTAtNDJFMS1CMzI0LTVCMTMxRjQyNEUzRF9mNWJiYTU2Ni1lYzMyLTQxYjEtOGY2NS00Mzk4ZTA2NmU4ODE=)
