@@ -3,7 +3,7 @@
 #include "Person.h"
 #include "Progress.h"
 using namespace std;
-class Empioee : public Person
+class Staff : public Person
 {
 protected:
 	string department;
