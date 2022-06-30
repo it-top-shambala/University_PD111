@@ -1,6 +1,6 @@
 #pragma once
 using namespace std;
-struct DateOfBirth
+struct Date
 {
 protected:
 	int day;
