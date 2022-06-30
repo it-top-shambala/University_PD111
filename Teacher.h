@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include "Empioee.h"
+#include "Staff.h"
 using namespace std;
 class Teacher : public Staff
 {

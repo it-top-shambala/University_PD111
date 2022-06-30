@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include "DateOfBirth.h"
+#include "Date.h"
 #include "Contacts.h"
 using namespace std;
 class Person

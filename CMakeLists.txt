@@ -3,4 +3,4 @@ project(university)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(university main.cpp)
+add_executable(university Contacts.h Date.h Person.h Progress.h Staff.h Student.h Teacher.h main.cpp)

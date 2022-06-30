@@ -5,5 +5,4 @@ struct Contacts
 protected:
 	string addres;
 	string phone;
-
 };
