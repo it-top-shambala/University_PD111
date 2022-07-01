@@ -7,4 +7,14 @@ class Progress
 {
 protected:
 	map<string, vector<int>> progress;
+public:
+	Progress(){}
+	map<string, vector<int>> GetProgress()
+	{
+		return progress;
+	}
+	SetProgress(string str, vector<int> mark)
+	{
+		progress.emplace(str, mark);
+	}
 };

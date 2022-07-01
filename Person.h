@@ -12,4 +12,20 @@ protected:
 	Contacts* contacts;
 public:
 	Person (){}
+	string GetLastName()
+	{
+		return lastName;
+	}
+	void SetLastName(string str)
+	{
+		lastName = str;
+	}
+	string GetFirstName()
+	{
+		return firstName;
+	}
+	void SetFirstName(string str)
+	{
+		firstName = str;
+	}	
 };

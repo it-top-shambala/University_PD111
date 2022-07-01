@@ -6,4 +6,14 @@ class Teacher : public Staff
 {
 protected:
 	string subject;
+public:
+	Teacher(){}
+	string GetSubject()
+	{
+		return subject;
+	}
+	void SetSubject(string str)
+	{
+		subject = str;
+	}	
 };

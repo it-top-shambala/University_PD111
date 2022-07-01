@@ -1,6 +1,6 @@
 #include <iostream>
-
+#include "Teacher.h"
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Teacher A;
     return 0;
 }
