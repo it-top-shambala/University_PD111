@@ -13,8 +13,8 @@ public:
 	{
 		return progress;
 	}
-	SetProgress(string str, vector<int> mark)
+	SetProgress(string subject, vector<int> mark)
 	{
-		progress.emplace(str, mark);
+		progress.emplace(subject, mark);
 	}
 };
