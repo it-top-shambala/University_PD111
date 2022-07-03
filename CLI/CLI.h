@@ -24,6 +24,7 @@ class CLI {
 		//считывать данные из файлов баз в нужные поля и работать с ними
 	}
 public:
+
 	void Authorization(string userName) {}
 
 	void AddPerson() {
