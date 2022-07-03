@@ -9,6 +9,7 @@ using std::string;
 class Teacher : public Employee {
 protected:
 	string subject;
+
 public:
 	Teacher(unsigned short id) : Employee(id) {}
 	string ToString() {

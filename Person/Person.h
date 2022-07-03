@@ -22,6 +22,7 @@ protected:
 		_firstName = firstName;
 		_lastName = lastName;
 	}
+
 public:
 	void SetFirstName(string newFirstName) {}
 	void SetLastName(string newLastName) {}

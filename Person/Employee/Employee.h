@@ -12,6 +12,7 @@ protected:
 	string _position;
 	Date _employmentDate; //можно добавить дату приема на работу
 	bool _isWorking;
+
 public:
 	Employee (unsigned short id) : Person(id) {}
 	string ToString() {

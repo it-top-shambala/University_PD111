@@ -23,6 +23,7 @@ class University {
 		//и передавать в конструктор Person'ов его значение + 1 
 		//считывать данные из файлов баз в нужные поля и работать с ними
 	}
+
 public:
 	void Authorization(string userName) {}
 	void AddPerson() {

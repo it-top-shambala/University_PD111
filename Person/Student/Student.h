@@ -12,6 +12,7 @@ protected:
 	string _faculty;
 	bool _isStudying;
 	Progress _progress;
+
 public:
 	Student(unsigned short id) : Person(id) {}
 	string ToString() {
