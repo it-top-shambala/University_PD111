@@ -10,8 +10,7 @@ class Teacher : public Employee {
 protected:
 	string subject;
 public:
-	Teacher (unsigned short id) : Employee(id) {}
-
+	Teacher(unsigned short id) : Employee(id) {}
 	string ToString() {
 		string str = "";
 		str = _firstName + " " + _lastName + " " + _dateOfBirth.ToString() + " " + _contacts.ToString() + " " + _department + " " + _position + " " + _subject + " ";

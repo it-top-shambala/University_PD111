@@ -12,7 +12,6 @@ public:
 	string address;
 	string phone;
 	string email;
-
 	string ToString() {} 
 	string ToFile() {}
 };

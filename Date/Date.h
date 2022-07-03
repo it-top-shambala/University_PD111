@@ -12,7 +12,6 @@ public:
 	short day;
 	short month;
 	short year;
-
 	string ToString() {}
 	string ToFile() {}
 };

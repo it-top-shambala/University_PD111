@@ -15,7 +15,7 @@ class DataBase {
 public:
 	void Add(Student* student, string username) {
 	//в каждом методе будет генерироваться сообщение и передаваться в класс-подписчик для записи в лог-файл
-		string message = username+" added a new student "+student->SetFirstName()+" "+student->GetLastName()+" to the base";
+		string message = username+" added a new student "+student->GetFirstName()+" "+student->GetLastName()+" to the base";
 		LogFile::LogToFile(message);
 	}
 	void Add(Employee* employee, string username) {}

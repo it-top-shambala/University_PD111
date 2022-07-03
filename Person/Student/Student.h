@@ -14,7 +14,6 @@ protected:
 	Progress _progress;
 public:
 	Student(unsigned short id) : Person(id) {}
-
 	string ToString() {
 		string str = "";
 		str = _firstName + " " + _lastName + " " + _dateOfBirth.ToString() + " " + _contacts.ToString() + " " + _faculty + " ";

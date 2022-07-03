@@ -13,7 +13,6 @@ using std::pair;
 class Progress {
 public:
 	map <string, vector<short>> progress;
-
-string ToString() {}
-string ToFile() {}
+	string ToString() {}
+	string ToFile() {}
 };

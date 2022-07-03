@@ -14,7 +14,6 @@ protected:
 	bool _isWorking;
 public:
 	Employee (unsigned short id) : Person(id) {}
-
 	string ToString() {
 		string str = "";
 		str = _firstName + " " + _lastName + " " + _dateOfBirth.ToString() + " " + _contacts.ToString() + " " + _department + " " + _position + " ";
